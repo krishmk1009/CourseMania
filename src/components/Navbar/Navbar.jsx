@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='main-nav flex  justify-between pt-5 '>
         <div>
           <Link to='/'>
-            <img className='pl-4 lg:pl-0' src='https://wpastra.com/wp-content/uploads/2019/05/astra-logo.svg' />
+            <img className='pl-4 lg:pl-0 w-2/3 h-16'  src='https://files.clinchtalent.com/1d7f2c0f91ebf75d580f56447fa54859/eba0875041db9b79892abad2b9e961e2/Coursera.png' />
           </Link>
         </div>
         <div className='lg:flex hidden'>
