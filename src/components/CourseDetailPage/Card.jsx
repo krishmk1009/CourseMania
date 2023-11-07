@@ -7,13 +7,12 @@ const Card = ({ course, duration, schedule, location, enrollmentStatus }) => {
 
     const dispatch = useDispatch();
     const handleEnrollClick = () => {
-        console.log("enroll clicked")
-        alert("enroll clicked")
+        alert("You have successfully enrolled in this course")
 
         dispatch(addCourseFun(course));
     }
     return (
-        <div className="bg-white w-1/4 absolute top-96 right-56 p-6 rounded-lg shadow-lg mb-4">
+        <div className="bg-white lg:w-1/4 lg:absolute top-96 right-56 p-6 rounded-lg shadow-lg mb-4">
             <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4">
                 <span>📚</span>
             </div>

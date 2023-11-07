@@ -24,7 +24,7 @@ const CompletedCourseList = () => {
     ));
 
     return (
-        <div className="  w-1/2   my-10">
+        <div className=" lg:w-1/2  px-4 my-10">
         <h1 className='text-2xl mb-4'>Completed Course:</h1>
             <ul className=" bg-blue-200 p-4">
                 {itemList}

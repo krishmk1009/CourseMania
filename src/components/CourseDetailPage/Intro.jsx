@@ -7,8 +7,7 @@ const Intro = ({ course,name, description, instructor }) => {
 
     const handleEnrollClick = (e) => {
         e.preventDefault()
-        console.log("enro;ll clicked")
-        alert("enroll clicked")
+        alert("You have successfully enrolled in this course")
 
         dispatch(addCourseFun(course));
     }

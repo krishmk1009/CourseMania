@@ -40,7 +40,7 @@ const CourseDetailPage = () => {
         enrollmentStatus={course.enrollmentStatus}
       />
 
-      <div className="mt-8 w-1/2">
+      <div className="mt-8 px-4 lg:w-1/2">
         <h2 className="text-xl font-semibold">Prerequisites</h2>
         <ul className="list-disc  my-4">
           {course.prerequisites.map((prerequisite, index) => (
@@ -49,7 +49,7 @@ const CourseDetailPage = () => {
         </ul>
       </div>
 
-      <div className="mt-8 w-1/2">
+      <div className="mt-8 px-4 lg:w-1/2">
         <h2 className="text-xl font-semibold">Syllabus</h2>
         <ul className="list-decimal pl-6">
           {course.syllabus.map((item) => (
@@ -69,7 +69,9 @@ const CourseDetailPage = () => {
         </ul>
       </div>
 
-      <div className="mt-8">
+      <div className="mt-8 px-4">
+      <h1 className='text-xl mb-5'>Enrolled Students:</h1>
+
         <ImageCards />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileCard = () => {
   return (
-    <div className="flex flex-col bg-white absolute top-96 right-56 justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12">
+    <div className="flex flex-col my-4 bg-white lg:absolute top-96 right-56 justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 mx-auto">
 	<img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg" alt="" className="w-32 h-32 mx-auto rounded-full  aspect-square" />
 	<div className="space-y-4 text-center  ">
 		<div className="my-2 space-y-1">
