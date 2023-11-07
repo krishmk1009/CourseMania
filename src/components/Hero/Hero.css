@@ -1,0 +1,25 @@
+.hero-section{
+    margin-top:71px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section{
+
+        padding: 0 20px 0 20px;
+    }
+
+    .hero-heading{
+     
+        padding: 0 20px 0 20px;
+        line-height: 1.2;
+        text-align: center; /* Center align the paragraph text */
+        font-size: 54px;
+
+    }
+
+    .hero-para{
+        padding: 0 20px 0 20px;
+        text-align: center; /* Center align the paragraph text */
+      
+    }
+}
